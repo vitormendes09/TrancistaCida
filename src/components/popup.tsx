@@ -23,14 +23,14 @@ function Popup() {
                         <div className="bg-gray-200 rounded-lg shadow-lg w-96 h-96 ">
                             <div className=" flex flex-col "> 
                                 <div>
-                                    <h1 className="pb-6 pt-2 text-2xl font-medium"> Tabela de Preços </h1>
+                                    <h1 className="pb-6 pt-2 text-2xl font-medium"> Serviços Ofertados </h1>
                                 </div>
 
                                 <div className="pb-5 pt-20 text-xl ">
                                     <p className="">
-                                        Trança Jumbo -   R$x
+                                        Trança Jumbo
                                     </p>
-                                    <p>Trança Nago  -  R$x
+                                    <p>Trança Nago
 
                                     </p>
                                     

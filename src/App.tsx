@@ -13,12 +13,16 @@ export default function App() {
 
             <div className=" p-10 flex flex-col items-center justify-center "> 
                 <div className="w-20 h-20 rounded-full bg-gray-200 mb-4">
-                    
+                    <img
+                        src ="/img/img.jpeg"
+                        alt="foto"
+                        className="w-full h-full object-cover rounded-lg shadow-lg"
+                    />
                 </div>
 
 
                 <div className="">
-                      <h1 className="text-2xl font-medium ">Cida | Tancista de Rainha </h1>
+                      <h1 className="text-2xl font-medium ">Tranças de Rainha </h1>
                 </div>
             </div>
 
@@ -46,8 +50,8 @@ export default function App() {
         </main>
 
         <div className="absolute bottom-0 bg-white p-4 w-screen shadow-lg flex items-center justify-center h-3">
-              <footer>
-                  <p className="text-">© 2025 Cida | Tancista de Rainha</p>
+              <footer className="absolute buttom-0 ">
+                  <p className="">© 2025 Cida | Tancista de Rainha</p>
               </footer>
         </div>
     </div>
