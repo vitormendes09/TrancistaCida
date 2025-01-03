@@ -27,15 +27,15 @@ export default function App() {
             </div>
 
             <div className="">
+                <button onClick={() => window.location.href = "https://maps.app.goo.gl/LCoLnD7nMuGYDC439"} className="bg-gray-200 p-4 rounded-lg shadow-lg mt-4 flex flex-col items-center justify-center relative hover:scale-105 duration-500 w-full">
+                    <span className="text-xl font-medium"> ATENDIMENTO A DOMICILIO - BOM JESUS</span>
+                </button>
                 
                 <button className="w-full">
                     <Popup />
                   
                 </button>
 
-                <button onClick={() => window.location.href = "https://maps.app.goo.gl/LCoLnD7nMuGYDC439"} className="bg-gray-200 p-4 rounded-lg shadow-lg mt-4 flex flex-col items-center justify-center relative hover:scale-105 duration-500 w-full">
-                    <span className="text-xl font-medium"> ATENDIMENTO A DOMICILIO - BOM JESUS</span>
-                </button>
                
                 <button onClick={() => window.location.href = "https://www.instagram.com/braidsofqueen/"} className="bg-gray-200 p-4 rounded-lg shadow-lg mt-4 flex flex-col items-center justify-center relative hover:scale-105 duration-500 w-full">
                     <span className="text-xl font-medium"> INSTAGRAM</span>
@@ -46,14 +46,15 @@ export default function App() {
                 </button>
 
             </div>
+            <div className="flex flex-col items-center justify-center absolute inset-x-0 bottom-0 h-6 bg-gray-200">
+              <footer className="absolute buttom-0 ">
+                <p> © 2025 Cida| Trancista de Rainha </p>
+              </footer>
+
+            </div>
 
         </main>
 
-        <div className="absolute bottom-0 bg-white p-4 w-screen shadow-lg flex items-center justify-center h-3">
-              <footer className="absolute buttom-0 ">
-                  <p className="">© 2025 Cida | Tancista de Rainha</p>
-              </footer>
-        </div>
     </div>
   );
 }
